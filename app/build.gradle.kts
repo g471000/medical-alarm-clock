@@ -83,15 +83,15 @@ android {
     defaultConfig {
         versionCode = 31404
         versionName = "3.14.04"
-        applicationId = "com.better.codingAlarm"
+        applicationId = "com.better.medicalAlarm"
         minSdk = 16
         targetSdk = 33
-        testApplicationId = "com.better.codingAlarm.test"
+        testApplicationId = "com.better.medicalAlarm.test"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled = true
     }
-    namespace = "com.better.codingAlarm"
-    testNamespace = "com.better.codingAlarm.debug"
+    namespace = "com.better.medicalAlarm"
+    testNamespace = "com.better.medicalAlarm.debug"
     signingConfigs {
         create("release") {
             storeFile = file("upload-keystore.jks")
@@ -118,7 +118,7 @@ android {
     flavorDimensions.add("default")
 
     productFlavors {
-        create("develop") { applicationId = "com.better.codingAlarm" }
+        create("develop") { applicationId = "com.better.medicalAlarm" }
     }
 
     installation {
