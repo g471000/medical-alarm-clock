@@ -2,11 +2,11 @@ package com.better.medicalAlarm.question
 
 class QuestionListBiochemistry {
 
-    fun getBioChemistryQuestions(): List<Question> {
-        return bioChemistryQuestions
+    fun getBiochemistryQuestions(): List<Question> {
+        return biochemistryQuestions
     }
 
-    private val bioChemistryQuestions = listOf(
+    private val biochemistryQuestions = listOf(
         Question(
             id = 0,
             description = "Which molecule is known as the 'energy currency' of the cell?",

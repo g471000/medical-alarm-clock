@@ -33,10 +33,7 @@
 
     <string-array name="question_types">
         <item>ALL</item>
-        <item>Java</item>
-        <item>Python</item>
-        <item>SQL</item>
-        <item>CODING_INTERVIEW</item>
+        <item>Biochemistry</item>
     </string-array>
 
     <string name="question_type_prompt">Select Question Type</string>

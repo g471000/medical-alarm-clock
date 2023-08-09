@@ -11,7 +11,7 @@ class QuestionList {
      * 4. 버튼도 업데이트 하고, 연동 한다. onCreateQuestionSelectView 메소드로 가서 연결해준다
      */
     private val questionsMap = mapOf(
-        QuestionType.BIOCHEMISTRY to QuestionListBiochemistry().getBioChemistryQuestions(),
+        QuestionType.BIOCHEMISTRY to QuestionListBiochemistry().getBiochemistryQuestions(),
     )
 
     fun getRandomQuestion(questionType: QuestionType): Question? {
