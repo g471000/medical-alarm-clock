@@ -11,10 +11,7 @@ class QuestionList {
      * 4. 버튼도 업데이트 하고, 연동 한다. onCreateQuestionSelectView 메소드로 가서 연결해준다
      */
     private val questionsMap = mapOf(
-        QuestionType.PYTHON to QuestionListPython().getPythonQuestions(),
-        QuestionType.SQL to QuestionListSQL().getSQLQuestions(),
-        QuestionType.JAVA to QuestionListJava().getJavaQuestions(),
-        QuestionType.CODING_INTERVIEW to QuestionListCodingInterview().getCodingInterviewQuestions()
+        QuestionType.BIOCHEMISTRY to QuestionListBiochemistry().getBiochemistryQuestions(),
     )
 
     fun getRandomQuestion(questionType: QuestionType): Question? {

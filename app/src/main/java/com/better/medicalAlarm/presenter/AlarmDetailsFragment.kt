@@ -229,10 +229,7 @@ class AlarmDetailsFragment : Fragment() {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
                 val selectedQuestionType = when (parent?.getItemAtPosition(position).toString()) {
                     "ALL" -> QuestionType.ALL
-                    "Java" -> QuestionType.JAVA
-                    "Python" -> QuestionType.PYTHON
-                    "SQL" -> QuestionType.SQL
-                    "CODING_INTERVIEW" -> QuestionType.CODING_INTERVIEW
+                    "Biochemistry" -> QuestionType.BIOCHEMISTRY
                     else -> QuestionType.ALL // default
                 }
                 modify(
